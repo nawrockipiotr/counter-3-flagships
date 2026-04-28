@@ -1,191 +1,253 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>CSRI · Infographic</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: #ffffff; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
-    #__bundler_loading { position: fixed; bottom: 20px; right: 20px; font: 13px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; color: #666; background: #fff; padding: 8px 14px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.12); z-index: 10000; }
-    #__bundler_thumbnail { position: fixed; inset: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #ffffff; z-index: 9999; }
-    #__bundler_thumbnail svg { width: 100%; height: 100%; object-fit: contain; }
-    #__bundler_placeholder { color: #999; font-size: 14px; }
-  </style>
-  <noscript>
-    <style>#__bundler_loading { display: none; }</style>
-    <div style="position:fixed;bottom:12px;left:12px;font:13px/1.4 -apple-system,BlinkMacSystemFont,sans-serif;color:#999;background:rgba(255,255,255,0.9);padding:6px 12px;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.08);z-index:10000;">
-      This page requires JavaScript to display.
-    </div>
-  </noscript>
+    <meta charset="utf-8">
+    <title>CSRI · Infographic</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    #__bundler_loading {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font: 13px/1.4 -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #666;
+        background: #fff;
+        padding: 8px 14px;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+        z-index: 10000;
+    }
+
+    #__bundler_thumbnail {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        z-index: 9999;
+    }
+
+    #__bundler_thumbnail svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #__bundler_placeholder {
+        color: #999;
+        font-size: 14px;
+    }
+    </style>
+    <noscript>
+        <style>
+        #__bundler_loading {
+            display: none;
+        }
+        </style>
+        <div style="position:fixed;bottom:12px;left:12px;font:13px/1.4 -apple-system,BlinkMacSystemFont,sans-serif;color:#999;background:rgba(255,255,255,0.9);padding:6px 12px;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.08);z-index:10000;">
+              This page requires JavaScript to display.
+            </div>
+    </noscript>
 </head>
 <body>
-  <div id="__bundler_thumbnail">
-  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-    <rect x="60" y="60" width="1080" height="680" rx="32" fill="#ffffff" stroke="#0f17201a" stroke-width="2"></rect>
-    <text x="600" y="220" font-family="system-ui, sans-serif" font-size="92" font-weight="700" text-anchor="middle" fill="#0f1720" letter-spacing="-2">CSRI</text>
-    <g transform="translate(180,360)">
-      <rect width="280" height="200" rx="16" fill="#1D9E7522" stroke="#1D9E75" stroke-width="3"></rect>
-      <circle cx="24" cy="24" r="6" fill="#1D9E75"></circle>
-    </g>
-    <g transform="translate(460,360)">
-      <rect width="280" height="200" rx="16" fill="#E8732A22" stroke="#E8732A" stroke-width="3"></rect>
-      <circle cx="24" cy="24" r="6" fill="#E8732A"></circle>
-    </g>
-    <g transform="translate(740,360)">
-      <rect width="280" height="200" rx="16" fill="#2B5EA722" stroke="#2B5EA7" stroke-width="3"></rect>
-      <circle cx="24" cy="24" r="6" fill="#2B5EA7"></circle>
-    </g>
-  </svg>
-</div>
-  <div id="__bundler_loading">Unpacking...</div>
+    <div id="__bundler_thumbnail">
+        <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+            <rect x="60" y="60" width="1080" height="680" rx="32" fill="#ffffff" stroke="#0f17201a" stroke-width="2"></rect>
+            <text x="600" y="220" font-family="system-ui, sans-serif" font-size="92" font-weight="700" text-anchor="middle" fill="#0f1720" letter-spacing="-2">CSRI</text>
+            <g transform="translate(180,360)">
+                <rect width="280" height="200" rx="16" fill="#1D9E7522" stroke="#1D9E75" stroke-width="3"></rect>
+            </g>
+            <g transform="translate(460,360)">
+                <rect width="280" height="200" rx="16" fill="#E8732A22" stroke="#E8732A" stroke-width="3"></rect>
+            </g>
+            <g transform="translate(740,360)">
+                <rect width="280" height="200" rx="16" fill="#2B5EA722" stroke="#2B5EA7" stroke-width="3"></rect>
+            </g>
+        </svg>
+    </div>
+    <div id="__bundler_loading">Unpacking...</div>
 
-  <script>
-    
-document.addEventListener('DOMContentLoaded', async function() {
-  const loading = document.getElementById('__bundler_loading');
-  function setStatus(msg) { if (loading) loading.textContent = msg; }
+    <script>
 
-  // Error sink persists across replaceWith since it's on window, not the DOM.
-  window.addEventListener('error', function(e) {
-    var p = document.body || document.documentElement;
-    var d = document.getElementById('__bundler_err') || p.appendChild(document.createElement('div'));
-    d.id = '__bundler_err';
-    d.style.cssText = 'position:fixed;bottom:12px;left:12px;right:12px;font:12px/1.4 ui-monospace,monospace;background:#2a1215;color:#ff8a80;padding:10px 14px;border-radius:8px;border:1px solid #5c2b2e;z-index:99999;white-space:pre-wrap;max-height:40vh;overflow:auto';
-    d.textContent = (d.textContent ? d.textContent + String.fromCharCode(10) : '') +
-      '[bundle] ' + (e.message || e.type) +
-      (e.filename ? ' (' + e.filename.slice(0, 60) + ':' + e.lineno + ')' : '');
-  }, true);
-
-  try {
-    const manifestEl = document.querySelector('script[type="__bundler/manifest"]');
-    const templateEl = document.querySelector('script[type="__bundler/template"]');
-    if (!manifestEl || !templateEl) {
-      setStatus('Error: missing bundle data');
-      console.error('[bundler] Missing script tags — manifestEl:', !!manifestEl, 'templateEl:', !!templateEl);
-      return;
-    }
-
-    const manifest = JSON.parse(manifestEl.textContent);
-    let template = JSON.parse(templateEl.textContent);
-
-    const uuids = Object.keys(manifest);
-    setStatus('Unpacking ' + uuids.length + ' assets...');
-
-    const blobUrls = {};
-    await Promise.all(uuids.map(async (uuid) => {
-      const entry = manifest[uuid];
-      try {
-        const binaryStr = atob(entry.data);
-        const bytes = new Uint8Array(binaryStr.length);
-        for (let i = 0; i < binaryStr.length; i++) bytes[i] = binaryStr.charCodeAt(i);
-
-        let finalBytes = bytes;
-        if (entry.compressed) {
-          if (typeof DecompressionStream !== 'undefined') {
-            const ds = new DecompressionStream('gzip');
-            const writer = ds.writable.getWriter();
-            const reader = ds.readable.getReader();
-            writer.write(bytes);
-            writer.close();
-            const chunks = [];
-            let totalLen = 0;
-            while (true) {
-              const { done, value } = await reader.read();
-              if (done) break;
-              chunks.push(value);
-              totalLen += value.length;
-            }
-            finalBytes = new Uint8Array(totalLen);
-            let offset = 0;
-            for (const chunk of chunks) { finalBytes.set(chunk, offset); offset += chunk.length; }
-          } else {
-            console.warn('DecompressionStream not available, asset ' + uuid + ' may not render');
-          }
+    document.addEventListener('DOMContentLoaded', async function() {
+        const loading = document.getElementById('__bundler_loading');
+        function setStatus(msg) {
+            if (loading)
+                loading.textContent = msg;
         }
 
-        blobUrls[uuid] = URL.createObjectURL(new Blob([finalBytes], { type: entry.mime }));
-      } catch (err) {
-        console.error('Failed to decode asset ' + uuid + ':', err);
-        blobUrls[uuid] = URL.createObjectURL(new Blob([], { type: entry.mime }));
-      }
-    }));
+        // Error sink persists across replaceWith since it's on window, not the DOM.
+        window.addEventListener('error', function(e) {
+            var p = document.body || document.documentElement;
+            var d = document.getElementById('__bundler_err') || p.appendChild(document.createElement('div'));
+            d.id = '__bundler_err';
+            d.style.cssText = 'position:fixed;bottom:12px;left:12px;right:12px;font:12px/1.4 ui-monospace,monospace;background:#2a1215;color:#ff8a80;padding:10px 14px;border-radius:8px;border:1px solid #5c2b2e;z-index:99999;white-space:pre-wrap;max-height:40vh;overflow:auto';
+            d.textContent = (d.textContent ? d.textContent + String.fromCharCode(10) : '') +
+            '[bundle] ' + (e.message || e.type) +
+            (e.filename ? ' (' + e.filename.slice(0, 60) + ':' + e.lineno + ')' : '');
+        }, true);
 
-    const extResEl = document.querySelector('script[type="__bundler/ext_resources"]');
-    const extResources = extResEl ? JSON.parse(extResEl.textContent) : [];
-    const resourceMap = {};
-    for (const entry of extResources) {
-      if (blobUrls[entry.uuid]) resourceMap[entry.id] = blobUrls[entry.uuid];
-    }
+        try {
+            const manifestEl = document.querySelector('script[type="__bundler/manifest"]');
+            const templateEl = document.querySelector('script[type="__bundler/template"]');
+            if (!manifestEl || !templateEl) {
+                setStatus('Error: missing bundle data');
+                console.error('[bundler] Missing script tags — manifestEl:', !!manifestEl, 'templateEl:', !!templateEl);
+                return;
+            }
 
-    setStatus('Rendering...');
-    for (const uuid of uuids) template = template.split(uuid).join(blobUrls[uuid]);
+            const manifest = JSON.parse(manifestEl.textContent);
+            let template = JSON.parse(templateEl.textContent);
 
-    // Strip integrity + crossorigin — blob URLs from a file:// document inherit
-    // a null origin, so crossorigin forces a CORS fetch that SRI then rejects.
-    // The manifest bytes are ours; SRI protects against CDN compromise, not this.
-    template = template.replace(/\s+integrity="[^"]*"/gi, '').replace(/\s+crossorigin="[^"]*"/gi, '');
+            const uuids = Object.keys(manifest);
+            setStatus('Unpacking ' + uuids.length + ' assets...');
 
-    const resourceScript = '<script>window.__resources = ' +
-      JSON.stringify(resourceMap).split('</' + 'script>').join('<\\/' + 'script>') +
-      ';</' + 'script>';
-    // Inject after <head> so the DOCTYPE stays first; prepending the script
-    // would push the parser into quirks mode. DOMParser always emits a <head>
-    // (synthesizing one if the source HTML omitted it) but may carry
-    // attributes through, so match the full opening tag. slice() rather than
-    // replace() keeps us clear of $-pattern substitution in resourceScript.
-    const headOpen = template.match(/<head[^>]*>/i);
-    if (headOpen) {
-      const i = headOpen.index + headOpen[0].length;
-      template = template.slice(0, i) + resourceScript + template.slice(i);
-    }
+            const blobUrls = {};
+            await Promise.all(uuids.map(async (uuid) => {
+                const entry = manifest[uuid];
+                try {
+                    const binaryStr = atob(entry.data);
+                    const bytes = new Uint8Array(binaryStr.length);
+                    for (let i = 0; i < binaryStr.length; i++)
+                        bytes[i] = binaryStr.charCodeAt(i);
 
-    // Parse the template and swap the root element. Scripts inserted via
-    // DOMParser/replaceWith are inert per spec — re-create each with
-    // createElement so they execute, awaiting onload for src scripts to
-    // preserve ordering (React before ReactDOM before Babel before text/babel).
-    const doc = new DOMParser().parseFromString(template, 'text/html');
-    document.documentElement.replaceWith(doc.documentElement);
-    const dead = Array.from(document.scripts);
-    for (const old of dead) {
-      const s = document.createElement('script');
-      for (const a of old.attributes) s.setAttribute(a.name, a.value);
-      s.textContent = old.textContent;
-      // text/babel scripts with a src: fetch and inline. transformScriptTags
-      // does XHR against the src, but blob:null/ from a file:// origin is
-      // silently dropped. Inlining makes it a plain inline babel script,
-      // which transformScriptTags handles unconditionally.
-      if ((s.type === 'text/babel' || s.type === 'text/jsx') && s.src) {
-        const r = await fetch(s.src);
-        s.textContent = await r.text();
-        s.removeAttribute('src');
-      }
-      const p = s.src ? new Promise(function(r) { s.onload = s.onerror = r; }) : null;
-      old.replaceWith(s);
-      if (p) await p;
-    }
-    // Babel standalone auto-transforms type=text/babel on DOMContentLoaded,
-    // which fired before we swapped the document. Trigger manually if present.
-    if (window.Babel && typeof window.Babel.transformScriptTags === 'function') {
-      window.Babel.transformScriptTags();
-    }
-  } catch (err) {
-    setStatus('Error unpacking: ' + err.message);
-    console.error('Bundle unpack error:', err);
-  }
-});
+                    let finalBytes = bytes;
+                    if (entry.compressed) {
+                        if (typeof DecompressionStream !== 'undefined') {
+                            const ds = new DecompressionStream('gzip');
+                            const writer = ds.writable.getWriter();
+                            const reader = ds.readable.getReader();
+                            writer.write(bytes);
+                            writer.close();
+                            const chunks = [];
+                            let totalLen = 0;
+                            while (true) {
+                                const {done, value} = await reader.read();
+                                if (done)
+                                    break;
+                                chunks.push(value);
+                                totalLen += value.length;
+                            }
+                            finalBytes = new Uint8Array(totalLen);
+                            let offset = 0;
+                            for (const chunk of chunks) {
+                                finalBytes.set(chunk, offset);
+                                offset += chunk.length;
+                            }
+                        } else {
+                            console.warn('DecompressionStream not available, asset ' + uuid + ' may not render');
+                        }
+                    }
 
-  </script>
+                    blobUrls[uuid] = URL.createObjectURL(new Blob([finalBytes], {
+                        type: entry.mime
+                    }));
+                } catch (err) {
+                    console.error('Failed to decode asset ' + uuid + ':', err);
+                    blobUrls[uuid] = URL.createObjectURL(new Blob([], {
+                        type: entry.mime
+                    }));
+                }
+            }));
 
-  <script type="__bundler/manifest">
-{}
-  </script>
+            const extResEl = document.querySelector('script[type="__bundler/ext_resources"]');
+            const extResources = extResEl ? JSON.parse(extResEl.textContent) : [];
+            const resourceMap = {};
+            for (const entry of extResources) {
+                if (blobUrls[entry.uuid])
+                    resourceMap[entry.id] = blobUrls[entry.uuid];
+            }
 
-  <script type="__bundler/ext_resources">
-[]
-  </script>
+            setStatus('Rendering...');
+            for (const uuid of uuids)
+                template = template.split(uuid).join(blobUrls[uuid]);
 
-  <script type="__bundler/template">
-"<!DOCTYPE html>\n<html lang=\"en\"><head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>CSRI · Infographic<\u002Ftitle>\n\n<style>\n  :root {\n    --cel:        #1D9E75;\n    --cel-soft:   #1D9E7522;\n    --cel-tint:   #1D9E7510;\n    --inter:      #E8732A;\n    --inter-soft: #E8732A22;\n    --inter-tint: #E8732A10;\n    --infra:      #2B5EA7;\n    --infra-soft: #2B5EA722;\n    --infra-tint: #2B5EA710;\n\n    --ink:        #0f1720;\n    --ink-2:      #3b4654;\n    --ink-3:      #6b7785;\n    --ink-4:      #9aa3b0;\n    --line:       #0f17201a;\n    --line-2:     #0f172012;\n    --surface:    #ffffffcc;\n    --surface-2:  #ffffff80;\n    --chip:       #0f17200a;\n    --chip-h:     #0f172014;\n    --shadow:     0 1px 0 #0f172008, 0 8px 28px -12px #0f172026;\n\n    --radius:     16px;\n    --radius-sm:  10px;\n    --font-sans:  ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto,\n                  \"Helvetica Neue\", Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\";\n    --font-num:   \"SF Pro Display\", ui-sans-serif, system-ui, -apple-system, Inter,\n                  \"Helvetica Neue\", Arial;\n  }\n  @media (prefers-color-scheme: dark) {\n    :root {\n      --ink:#eef2f7; --ink-2:#c9d1dc; --ink-3:#8b95a4; --ink-4:#6a7382;\n      --line:#ffffff1f; --line-2:#ffffff14;\n      --surface:#0f1720b3; --surface-2:#0f17207a;\n      --chip:#ffffff14; --chip-h:#ffffff22;\n      --shadow: 0 1px 0 #00000040, 0 12px 36px -10px #00000080;\n      --cel-tint:#1D9E7522; --inter-tint:#E8732A22; --infra-tint:#2B5EA722;\n    }\n  }\n  [data-theme=\"light\"] {\n    --ink:#0f1720; --ink-2:#3b4654; --ink-3:#6b7785; --ink-4:#9aa3b0;\n    --line:#0f17201a; --line-2:#0f172012;\n    --surface:#ffffffcc; --surface-2:#ffffff80;\n    --chip:#0f17200a; --chip-h:#0f172014;\n    --shadow: 0 1px 0 #0f172008, 0 8px 28px -12px #0f172026;\n    --cel-tint:#1D9E7510; --inter-tint:#E8732A10; --infra-tint:#2B5EA710;\n  }\n  [data-theme=\"dark\"] {\n    --ink:#eef2f7; --ink-2:#c9d1dc; --ink-3:#8b95a4; --ink-4:#6a7382;\n    --line:#ffffff1f; --line-2:#ffffff14;\n    --surface:#0f1720b3; --surface-2:#0f17207a;\n    --chip:#ffffff14; --chip-h:#ffffff22;\n    --shadow: 0 1px 0 #00000040, 0 12px 36px -10px #00000080;\n    --cel-tint:#1D9E7522; --inter-tint:#E8732A22; --infra-tint:#2B5EA722;\n  }\n\n  html, body { margin:0; padding:0; background:transparent; }\n  body {\n    font-family: var(--font-sans);\n    color: var(--ink);\n    -webkit-font-smoothing: antialiased;\n    text-rendering: optimizeLegibility;\n  }\n  *, *::before, *::after { box-sizing: border-box; }\n\n  .csri {\n    min-width: 680px;\n    max-width: 1180px;\n    margin: 0 auto;\n    padding: 18px;\n  }\n  .csri__card {\n    background: var(--surface);\n    backdrop-filter: blur(10px);\n    -webkit-backdrop-filter: blur(10px);\n    border: 1px solid var(--line);\n    border-radius: var(--radius);\n    box-shadow: var(--shadow);\n    overflow: hidden;\n  }\n\n  /* ------------ Header ------------ */\n  .csri__head {\n    display: flex;\n    align-items: center;\n    gap: 16px;\n    padding: 14px 18px;\n    border-bottom: 1px solid var(--line-2);\n  }\n  .csri__brand { display:flex; align-items:baseline; gap:10px; margin-right:auto; }\n  .csri__brand-mark { font-weight: 700; letter-spacing:-0.01em; font-size: 14px; color: var(--ink); }\n  .csri__brand-sub  { font-size: 12px; color: var(--ink-3); }\n  .csri__theme {\n    appearance: none;\n    border: 1px solid var(--line);\n    background: transparent;\n    color: var(--ink-3);\n    width: 32px; height: 32px;\n    border-radius: 8px; cursor: pointer;\n    display:inline-flex; align-items:center; justify-content:center;\n    transition: color .2s, border-color .2s;\n  }\n  .csri__theme:hover { color: var(--ink); border-color: var(--ink-4); }\n\n  /* ------------ Hero (top totals) ------------ */\n  .hero {\n    padding: 36px 28px 32px;\n    text-align: center;\n    position: relative;\n    overflow: hidden;\n  }\n  .hero::before {\n    content:\"\";\n    position:absolute; inset:0;\n    background:\n      radial-gradient(ellipse at 18% 0%, var(--cel-tint), transparent 55%),\n      radial-gradient(ellipse at 82% 0%, var(--inter-tint), transparent 55%),\n      radial-gradient(ellipse at 50% 100%, var(--infra-tint), transparent 60%);\n    pointer-events: none;\n  }\n  .hero__eyebrow {\n    position: relative;\n    font: 600 11px/1 var(--font-sans);\n    letter-spacing: 0.18em;\n    text-transform: uppercase;\n    color: var(--ink-3);\n    margin-bottom: 14px;\n  }\n  .hero__title {\n    position: relative;\n    margin: 0 0 6px;\n    font-size: clamp(28px, 3.2vw, 40px);\n    font-weight: 700;\n    letter-spacing: -0.025em;\n    line-height: 1.1;\n    color: var(--ink);\n  }\n  .hero__title .grad {\n    background: linear-gradient(90deg, var(--cel) 0%, var(--inter) 50%, var(--infra) 100%);\n    -webkit-background-clip: text; background-clip: text; color: transparent;\n  }\n  .hero__sub {\n    position: relative;\n    color: var(--ink-3);\n    font-size: 14px;\n    max-width: 56ch;\n    margin: 0 auto 30px;\n    line-height: 1.5;\n  }\n\n  .hero__stats {\n    position: relative;\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 18px;\n    max-width: 880px;\n    margin: 0 auto;\n  }\n  @media (max-width: 760px) { .hero__stats { grid-template-columns: 1fr; } }\n\n  .hstat {\n    background: var(--surface-2);\n    border: 1px solid var(--line);\n    border-radius: var(--radius);\n    padding: 22px 20px 18px;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    gap: 6px;\n    position: relative;\n    overflow: hidden;\n  }\n  .hstat::after {\n    content:\"\";\n    position: absolute; left: 0; top: 0; bottom: 0;\n    width: 4px;\n    background: linear-gradient(180deg, var(--cel), var(--inter), var(--infra));\n  }\n  .hstat__num {\n    font-family: var(--font-num);\n    font-weight: 700;\n    font-size: clamp(44px, 5vw, 64px);\n    line-height: 1;\n    letter-spacing: -0.03em;\n    font-variant-numeric: tabular-nums;\n    color: var(--ink);\n  }\n  .hstat__label {\n    font-weight: 600;\n    color: var(--ink);\n    font-size: 14px;\n  }\n  .hstat__hint {\n    font-size: 12px;\n    color: var(--ink-3);\n    line-height: 1.4;\n  }\n\n  /* ------------ Three columns ------------ */\n  .cols {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 14px;\n    padding: 28px 22px 32px;\n  }\n  @media (max-width: 1000px) { .cols { grid-template-columns: 1fr; } }\n\n  .col {\n    border: 1px solid var(--line);\n    border-radius: var(--radius);\n    padding: 20px 18px 18px;\n    background: var(--surface-2);\n    position: relative;\n    overflow: hidden;\n    color: var(--ink-2);\n    display: flex; flex-direction: column;\n    gap: 16px;\n  }\n  .col::before {\n    content:\"\";\n    position: absolute; left:0; right:0; top:0;\n    height: 4px;\n    background: currentColor;\n  }\n  .col[data-init=\"cel\"]   { color: var(--cel); }\n  .col[data-init=\"inter\"] { color: var(--inter); }\n  .col[data-init=\"infra\"] { color: var(--infra); }\n\n  .col__head { display:flex; flex-direction: column; gap: 4px; }\n  .col__title {\n    font-size: 18px;\n    font-weight: 700;\n    letter-spacing: -0.015em;\n    color: currentColor;\n    margin: 0;\n    display: flex; align-items: center; gap: 10px;\n    white-space: nowrap;\n  }\n  .col__dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; }\n  .col__full { font-size: 12.5px; color: var(--ink-3); font-weight: 500; }\n  .col__sub  { font-size: 12.5px; color: var(--ink-3); line-height: 1.45; }\n\n  /* mini stats grid inside each column */\n  .ministats {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 8px;\n  }\n  .mstat {\n    background: var(--chip);\n    border-radius: var(--radius-sm);\n    padding: 10px 12px;\n    border: 1px solid transparent;\n  }\n  .col[data-init=\"cel\"]   .mstat { background: var(--cel-tint); }\n  .col[data-init=\"inter\"] .mstat { background: var(--inter-tint); }\n  .col[data-init=\"infra\"] .mstat { background: var(--infra-tint); }\n  .mstat__num {\n    font-family: var(--font-num);\n    font-weight: 700;\n    font-size: 26px;\n    line-height: 1;\n    letter-spacing: -0.025em;\n    color: currentColor;\n    font-variant-numeric: tabular-nums;\n  }\n  .mstat__label {\n    margin-top: 5px;\n    font-size: 11.5px;\n    color: var(--ink-2);\n    line-height: 1.3;\n    font-weight: 500;\n  }\n  .mstat__hint {\n    display: block;\n    font-size: 10.5px;\n    color: var(--ink-3);\n    margin-top: 2px;\n    font-weight: 400;\n  }\n\n  /* country list inside column */\n  .clist__head {\n    display: flex; align-items: baseline; justify-content: space-between;\n    gap: 8px;\n    font: 600 11px/1 var(--font-sans);\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    color: var(--ink-3);\n    margin: 0 0 8px;\n  }\n  .clist__count {\n    color: currentColor;\n    font-size: 12px;\n    background: transparent;\n    border: 1px solid currentColor;\n    padding: 2px 8px;\n    border-radius: 999px;\n    font-weight: 700;\n    letter-spacing: 0;\n  }\n  .clist {\n    display: flex; flex-direction: column;\n    gap: 2px;\n  }\n  .crow {\n    display: flex; align-items: center;\n    gap: 8px;\n    padding: 6px 8px;\n    border-radius: 8px;\n    font-size: 13px;\n    color: var(--ink-2);\n    transition: background .15s, color .15s;\n    line-height: 1.2;\n    opacity: 0;\n    transform: translateY(4px);\n  }\n  .crow--in {\n    animation: crowIn .4s ease forwards;\n  }\n  @keyframes crowIn {\n    to { opacity: 1; transform: none; }\n  }\n  .crow:hover { background: var(--chip-h); color: var(--ink); }\n  .crow .flag { font-size: 16px; line-height: 1; width: 20px; flex-shrink: 0; text-align: center; }\n  .crow__name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }\n  .crow__tags { display: inline-flex; gap: 4px; flex-shrink: 0; }\n  .ctag {\n    display: inline-block;\n    width: 7px; height: 7px;\n    border-radius: 50%;\n    background: currentColor;\n    box-shadow: 0 0 0 1.5px var(--surface-2);\n  }\n  .ctag[data-k=\"cel\"]   { color: var(--cel); }\n  .ctag[data-k=\"inter\"] { color: var(--inter); }\n  .ctag[data-k=\"infra\"] { color: var(--infra); }\n\n  /* shared = give the entire row a soft tinted left edge */\n  .crow.is-shared {\n    background:\n      linear-gradient(90deg, var(--row-tint, transparent) 0%, transparent 60%);\n  }\n\n  /* ------------ Legend strip (between hero and cols) ------------ */\n  .keystrip {\n    display: flex; align-items: center; justify-content: center;\n    gap: 22px;\n    padding: 14px 18px;\n    border-top: 1px dashed var(--line);\n    border-bottom: 1px dashed var(--line);\n    font-size: 12.5px;\n    color: var(--ink-3);\n    flex-wrap: wrap;\n  }\n  .keystrip__item { display: inline-flex; align-items: center; gap: 7px; font-weight: 600; }\n  .keystrip__item .sw { width: 10px; height: 10px; border-radius: 3px; background: currentColor; }\n  .keystrip__item[data-k=\"cel\"]   { color: var(--cel); }\n  .keystrip__item[data-k=\"inter\"] { color: var(--inter); }\n  .keystrip__item[data-k=\"infra\"] { color: var(--infra); }\n  .keystrip__item span:last-child { color: var(--ink); }\n  .keystrip__hint {\n    color: var(--ink-3);\n    font-size: 12px;\n    font-weight: 500;\n    padding-left: 14px;\n    border-left: 1px solid var(--line);\n  }\n\n  /* ------------ Reveal animations on scroll ------------ */\n  .reveal {\n    opacity: 0;\n    transform: translateY(14px);\n    transition: opacity .6s ease, transform .6s ease;\n  }\n  .reveal.is-in {\n    opacity: 1;\n    transform: none;\n  }\n\n  /* footer note */\n  .foot {\n    padding: 14px 22px 22px;\n    font-size: 11.5px;\n    color: var(--ink-4);\n    text-align: center;\n    border-top: 1px solid var(--line-2);\n  }\n<\u002Fstyle>\n<\u002Fhead>\n<body>\n<div class=\"csri\" id=\"csri\">\n  <div class=\"csri__card\">\n    <!-- Header -->\n    <div class=\"csri__head\" style=\"justify-content:flex-end\">\n      <button class=\"csri__theme\" id=\"themeBtn\" aria-label=\"Toggle theme\" title=\"Toggle theme\">\n        <svg id=\"themeIcon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"><\u002Fcircle><path d=\"M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41\"><\u002Fpath><\u002Fsvg>\n      <\u002Fbutton>\n    <\u002Fdiv>\n\n    <!-- Hero / top totals -->\n    <div class=\"hero\">\n      <h1 class=\"hero__title reveal\" style=\"margin-top:0\">\n        <span class=\"grad\">Three programmes,<\u002Fspan> one European footprint.\n      <\u002Fh1>\n      <p class=\"hero__sub reveal\">\n        CSRI delivers consumer co-creation, higher-education partnerships, and\n        unlocks the hidden value of European research infrastructures across Central, Eastern, and Southern Europe.\n      <\u002Fp>\n\n      <div class=\"hero__stats\">\n        <div class=\"hstat reveal\">\n          <div class=\"hstat__num\" data-target=\"25\">0<\u002Fdiv>\n          <div class=\"hstat__label\">Unique countries<\u002Fdiv>\n          <div class=\"hstat__hint\">across all three flagship programmes<\u002Fdiv>\n        <\u002Fdiv>\n        <div class=\"hstat reveal\">\n          <div class=\"hstat__num\" data-target=\"183\">0<\u002Fdiv>\n          <div class=\"hstat__label\">Participations<\u002Fdiv>\n          <div class=\"hstat__hint\">total country-programme engagements<\u002Fdiv>\n        <\u002Fdiv>\n        <div class=\"hstat reveal\">\n          <div class=\"hstat__num\" data-target=\"7\">0<\u002Fdiv>\n          <div class=\"hstat__label\">Years of operation<\u002Fdiv>\n          <div class=\"hstat__hint\">2019 – 2025<\u002Fdiv>\n        <\u002Fdiv>\n      <\u002Fdiv>\n    <\u002Fdiv>\n\n    <!-- Legend -->\n    <div class=\"keystrip\">\n      <span class=\"keystrip__item\" data-k=\"cel\"><span class=\"sw\"><\u002Fspan><span>CEL<\u002Fspan><\u002Fspan>\n      <span class=\"keystrip__item\" data-k=\"inter\"><span class=\"sw\"><\u002Fspan><span>InterHEI<\u002Fspan><\u002Fspan>\n      <span class=\"keystrip__item\" data-k=\"infra\"><span class=\"sw\"><\u002Fspan><span>InfraBooster<\u002Fspan><\u002Fspan>\n      <span class=\"keystrip__hint\">Coloured dots next to a country show which other programmes it joined.<\u002Fspan>\n    <\u002Fdiv>\n\n    <!-- Three columns -->\n    <div class=\"cols\" id=\"cols\"><\u002Fdiv>\n\n    <div class=\"foot\">\n      CSRI · University of Warsaw · Centre for Socially Responsible Innovations\n    <\u002Fdiv>\n  <\u002Fdiv>\n<\u002Fdiv>\n\n<script>\n/* ===== DATA ===== */\nconst FLAG = {\n  Albania:\"🇦🇱\",\"Bosnia & Herzegovina\":\"🇧🇦\",Bulgaria:\"🇧🇬\",Croatia:\"🇭🇷\",\n  Czechia:\"🇨🇿\",Estonia:\"🇪🇪\",Finland:\"🇫🇮\",Greece:\"🇬🇷\",Hungary:\"🇭🇺\",\n  Italy:\"🇮🇹\",Latvia:\"🇱🇻\",Lithuania:\"🇱🇹\",Malta:\"🇲🇹\",Moldova:\"🇲🇩\",\n  Montenegro:\"🇲🇪\",\"N. Macedonia\":\"🇲🇰\",Poland:\"🇵🇱\",Portugal:\"🇵🇹\",\n  Romania:\"🇷🇴\",Serbia:\"🇷🇸\",Slovakia:\"🇸🇰\",Slovenia:\"🇸🇮\",Spain:\"🇪🇸\",\n  \"Türkiye\":\"🇹🇷\",Ukraine:\"🇺🇦\"\n};\n\nconst INITIATIVES = {\n  cel: {\n    key:\"cel\", name:\"Consumer Engagement Labs\", full:\"\",\n    sub:\"Where food innovation is co-created with consumers.\",\n    countries: [\"Bulgaria\",\"Croatia\",\"Czechia\",\"Estonia\",\"Finland\",\"Greece\",\"Hungary\",\"Italy\",\"Latvia\",\"Lithuania\",\"Malta\",\"N. Macedonia\",\"Poland\",\"Portugal\",\"Romania\",\"Serbia\",\"Slovakia\",\"Slovenia\",\"Spain\",\"Türkiye\"],\n    stats: [\n      { v:7,   label:\"Years\",                 hint:\"2019 – 2025\" },\n      { v:20,  label:\"Countries\" },\n      { v:103, label:\"Partner organisations\" },\n      { v:43,  label:\"Products launched\",     hint:\"+8 in pipeline\" },\n      { v:166, label:\"Consumer panels\" },\n      { v:8,   label:\"Product categories\" }\n    ]\n  },\n  inter: {\n    key:\"inter\", name:\"InterHEI\", full:\"\",\n    sub:\"Training students and supporting start-ups across HEIs.\",\n    countries: [\"Greece\",\"Italy\",\"Poland\",\"Serbia\",\"Slovakia\",\"Spain\",\"Türkiye\",\"Ukraine\"],\n    stats: [\n      { v:3,   label:\"Years\",                 hint:\"2022 – 2024\" },\n      { v:8,   label:\"Countries\" },\n      { v:14,  label:\"Partner organisations\", hint:\"11 full + 3 associated\" },\n      { v:851, label:\"Students trained\" },\n      { v:16,  label:\"Start-ups supported\" },\n      { v:4,   label:\"Key initiatives\" }\n    ]\n  },\n  infra: {\n    key:\"infra\", name:\"InfraBooster\", full:\"\",\n    sub:\"Unlocking the hidden value of European research infrastructures.\",\n    countries: [\"Albania\",\"Bosnia & Herzegovina\",\"Bulgaria\",\"Croatia\",\"Italy\",\"Latvia\",\"Lithuania\",\"Moldova\",\"Montenegro\",\"N. Macedonia\",\"Poland\",\"Portugal\",\"Romania\",\"Serbia\",\"Spain\",\"Türkiye\",\"Ukraine\"],\n    stats: [\n      { v:2,  label:\"Editions\",                  hint:\"2023 – 2025\" },\n      { v:17, label:\"Countries\" },\n      { v:66, label:\"Participating institutions\" },\n      { v:25, label:\"Services developed\",        hint:\"12 + 13 across editions\" }\n    ]\n  }\n};\n\n/* ===== Membership map (used to compute cross-init dots per row) ===== */\nconst MEMBERSHIP = {};\n['cel','inter','infra'].forEach(k => {\n  INITIATIVES[k].countries.forEach(c => {\n    if (!MEMBERSHIP[c]) MEMBERSHIP[c] = new Set();\n    MEMBERSHIP[c].add(k);\n  });\n});\n\n/* ===== Theme ===== */\nconst themeBtn = document.getElementById('themeBtn');\nconst themeIcon = document.getElementById('themeIcon');\nconst SUN  = `<circle cx=\"12\" cy=\"12\" r=\"4\"><\u002Fcircle><path d=\"M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41\"><\u002Fpath>`;\nconst MOON = `<path d=\"M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z\"><\u002Fpath>`;\nfunction getTheme(){ return document.documentElement.getAttribute('data-theme') ||\n  (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }\nfunction setTheme(t){ document.documentElement.setAttribute('data-theme', t);\n  themeIcon.innerHTML = t === 'dark' ? SUN : MOON; }\nthemeBtn.addEventListener('click', () => setTheme(getTheme() === 'dark' ? 'light' : 'dark'));\nsetTheme(getTheme());\n\n/* ===== Render columns ===== */\nconst colsEl = document.getElementById('cols');\n['cel','inter','infra'].forEach(k => {\n  const I = INITIATIVES[k];\n  const col = document.createElement('div');\n  col.className = 'col reveal';\n  col.dataset.init = k;\n  col.innerHTML = `\n    <div class=\"col__head\">\n      <h3 class=\"col__title\"><span class=\"col__dot\"><\u002Fspan>${I.name}<\u002Fh3>\n      <div class=\"col__full\">${I.full}<\u002Fdiv>\n      <div class=\"col__sub\">${I.sub}<\u002Fdiv>\n    <\u002Fdiv>\n\n    <div class=\"ministats\">\n      ${I.stats.map(s => `\n        <div class=\"mstat\">\n          <div class=\"mstat__num\" data-target=\"${s.v}\">0<\u002Fdiv>\n          <div class=\"mstat__label\">${s.label}${s.hint ? `<span class=\"mstat__hint\">${s.hint}<\u002Fspan>` : ''}<\u002Fdiv>\n        <\u002Fdiv>\n      `).join('')}\n    <\u002Fdiv>\n\n    <div class=\"clist-wrap\">\n      <div class=\"clist__head\">\n        <span>Countries<\u002Fspan>\n        <span class=\"clist__count\">${I.countries.length}<\u002Fspan>\n      <\u002Fdiv>\n      <div class=\"clist\">\n        ${[...I.countries].sort((a,b)=>a.localeCompare(b)).map(c => {\n          const others = [...MEMBERSHIP[c]].filter(x => x !== k);\n          const isShared = others.length > 0;\n          // tint background using the FIRST other initiative's tint\n          const tintColor = others[0] === 'cel' ? 'var(--cel-tint)'\n                          : others[0] === 'inter' ? 'var(--inter-tint)'\n                          : others[0] === 'infra' ? 'var(--infra-tint)'\n                          : 'transparent';\n          return `\n            <div class=\"crow${isShared?' is-shared':''}\" style=\"--row-tint:${tintColor}\">\n              <span class=\"flag\">${FLAG[c]||\"\"}<\u002Fspan>\n              <span class=\"crow__name\">${c}<\u002Fspan>\n              <span class=\"crow__tags\">\n                ${others.map(o => `<span class=\"ctag\" data-k=\"${o}\" title=\"Also in ${INITIATIVES[o].name}\"><\u002Fspan>`).join('')}\n              <\u002Fspan>\n            <\u002Fdiv>\n          `;\n        }).join('')}\n      <\u002Fdiv>\n    <\u002Fdiv>\n  `;\n  colsEl.appendChild(col);\n});\n\n/* ===== Counter animation ===== */\nfunction easeOutCubic(t){ return 1 - Math.pow(1 - t, 3); }\nfunction animateNumber(el, target, dur=4200){\n  const start = performance.now();\n  function frame(now){\n    const t = Math.min(1, (now - start) / dur);\n    const v = Math.round(easeOutCubic(t) * target);\n    el.textContent = v.toLocaleString('en-US');\n    if (t < 1) requestAnimationFrame(frame);\n    else el.textContent = target.toLocaleString('en-US');\n  }\n  el.textContent = \"0\";\n  requestAnimationFrame(frame);\n}\n\n/* ===== IntersectionObserver — reveal + counters on scroll ===== */\nconst seen = new WeakSet();\nconst io = new IntersectionObserver((entries) => {\n  entries.forEach(e => {\n    if (!e.isIntersecting) return;\n    const el = e.target;\n    if (seen.has(el)) return;\n    seen.add(el);\n    el.classList.add('is-in');\n    // animate any counters inside\n    el.querySelectorAll('[data-target]').forEach(n => {\n      animateNumber(n, parseInt(n.dataset.target,10),\n        n.classList.contains('hstat__num') ? 4800 : 3800);\n    });\n    // staggered country reveal inside columns\n    el.querySelectorAll('.crow').forEach((row, i) => {\n      row.style.animationDelay = (i * 140) + 'ms';\n      row.classList.add('crow--in');\n    });\n    io.unobserve(el);\n  });\n}, { threshold: 0.18, rootMargin: '0px 0px -40px 0px' });\n\ndocument.querySelectorAll('.reveal').forEach(el => io.observe(el));\n\n/* If page is already short enough that everything is in view, kick once */\nrequestAnimationFrame(() => {\n  document.querySelectorAll('.reveal').forEach(el => {\n    const r = el.getBoundingClientRect();\n    if (r.top < window.innerHeight && r.bottom > 0) {\n      el.classList.add('is-in');\n      if (!seen.has(el)) {\n        seen.add(el);\n        el.querySelectorAll('[data-target]').forEach(n => {\n          animateNumber(n, parseInt(n.dataset.target,10),\n            n.classList.contains('hstat__num') ? 4800 : 3800);\n        });\n        el.querySelectorAll('.crow').forEach((row, i) => {\n          row.style.animationDelay = (i * 140) + 'ms';\n          row.classList.add('crow--in');\n        });\n      }\n    }\n  });\n});\n\n/* stagger the reveal slightly so it feels orchestrated */\ndocument.querySelectorAll('.hero .reveal').forEach((el,i) => {\n  el.style.transitionDelay = (i * 70) + 'ms';\n});\ndocument.querySelectorAll('.cols .col.reveal').forEach((el,i) => {\n  el.style.transitionDelay = (i * 110) + 'ms';\n});\n<\u002Fscript>\n\n\n<\u002Fbody><\u002Fhtml>"
-  </script>
+            // Strip integrity + crossorigin — blob URLs from a file:// document inherit
+            // a null origin, so crossorigin forces a CORS fetch that SRI then rejects.
+            // The manifest bytes are ours; SRI protects against CDN compromise, not this.
+            template = template.replace(/\s+integrity="[^"]*"/gi, '').replace(/\s+crossorigin="[^"]*"/gi, '');
+
+            const resourceScript = '<script>window.__resources = ' +
+            JSON.stringify(resourceMap).split('</' + 'script>').join('<\\/' + 'script>') +
+            ';</' + 'script>';
+            // Inject after <head> so the DOCTYPE stays first; prepending the script
+            // would push the parser into quirks mode. DOMParser always emits a <head>
+            // (synthesizing one if the source HTML omitted it) but may carry
+            // attributes through, so match the full opening tag. slice() rather than
+            // replace() keeps us clear of $-pattern substitution in resourceScript.
+            const headOpen = template.match(/<head[^>]*>/i);
+            if (headOpen) {
+                const i = headOpen.index + headOpen[0].length;
+                template = template.slice(0, i) + resourceScript + template.slice(i);
+            }
+
+            // Parse the template and swap the root element. Scripts inserted via
+            // DOMParser/replaceWith are inert per spec — re-create each with
+            // createElement so they execute, awaiting onload for src scripts to
+            // preserve ordering (React before ReactDOM before Babel before text/babel).
+            const doc = new DOMParser().parseFromString(template, 'text/html');
+            document.documentElement.replaceWith(doc.documentElement);
+            const dead = Array.from(document.scripts);
+            for (const old of dead) {
+                const s = document.createElement('script');
+                for (const a of old.attributes)
+                    s.setAttribute(a.name, a.value);
+                s.textContent = old.textContent;
+                // text/babel scripts with a src: fetch and inline. transformScriptTags
+                // does XHR against the src, but blob:null/ from a file:// origin is
+                // silently dropped. Inlining makes it a plain inline babel script,
+                // which transformScriptTags handles unconditionally.
+                if ((s.type === 'text/babel' || s.type === 'text/jsx') && s.src) {
+                    const r = await fetch(s.src);
+                    s.textContent = await r.text();
+                    s.removeAttribute('src');
+                }
+                const p = s.src ? new Promise(function(r) {
+                    s.onload = s.onerror = r;
+                }) : null;
+                old.replaceWith(s);
+                if (p)
+                    await p;
+            }
+            // Babel standalone auto-transforms type=text/babel on DOMContentLoaded,
+            // which fired before we swapped the document. Trigger manually if present.
+            if (window.Babel && typeof window.Babel.transformScriptTags === 'function') {
+                window.Babel.transformScriptTags();
+            }
+        } catch (err) {
+            setStatus('Error unpacking: ' + err.message);
+            console.error('Bundle unpack error:', err);
+        }
+    });
+    </script>
+
+    <script type="__bundler/manifest">
+    {}
+    </script>
+
+    <script type="__bundler/ext_resources">
+    []
+    </script>
+
+    <script type="__bundler/template">
+    "<!DOCTYPE html>\n<html lang=\"en\"><head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>CSRI · Infographic<\u002Ftitle>\n\n<style>\n  :root {\n    --cel:        #1D9E75;\n    --cel-soft:   #1D9E7522;\n    --cel-tint:   #1D9E7510;\n    --inter:      #E8732A;\n    --inter-soft: #E8732A22;\n    --inter-tint: #E8732A10;\n    --infra:      #2B5EA7;\n    --infra-soft: #2B5EA722;\n    --infra-tint: #2B5EA710;\n\n    --ink:        #0f1720;\n    --ink-2:      #3b4654;\n    --ink-3:      #6b7785;\n    --ink-4:      #9aa3b0;\n    --line:       #0f17201a;\n    --line-2:     #0f172012;\n    --surface:    #ffffffcc;\n    --surface-2:  #ffffff80;\n    --chip:       #0f17200a;\n    --chip-h:     #0f172014;\n    --shadow:     0 1px 0 #0f172008, 0 8px 28px -12px #0f172026;\n\n    --radius:     16px;\n    --radius-sm:  10px;\n    --font-sans:  ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto,\n                  \"Helvetica Neue\", Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\";\n    --font-num:   \"SF Pro Display\", ui-sans-serif, system-ui, -apple-system, Inter,\n                  \"Helvetica Neue\", Arial;\n  }\n  @media (prefers-color-scheme: dark) {\n    :root {\n      --ink:#eef2f7; --ink-2:#c9d1dc; --ink-3:#8b95a4; --ink-4:#6a7382;\n      --line:#ffffff1f; --line-2:#ffffff14;\n      --surface:#0f1720b3; --surface-2:#0f17207a;\n      --chip:#ffffff14; --chip-h:#ffffff22;\n      --shadow: 0 1px 0 #00000040, 0 12px 36px -10px #00000080;\n      --cel-tint:#1D9E7522; --inter-tint:#E8732A22; --infra-tint:#2B5EA722;\n    }\n  }\n  [data-theme=\"light\"] {\n    --ink:#0f1720; --ink-2:#3b4654; --ink-3:#6b7785; --ink-4:#9aa3b0;\n    --line:#0f17201a; --line-2:#0f172012;\n    --surface:#ffffffcc; --surface-2:#ffffff80;\n    --chip:#0f17200a; --chip-h:#0f172014;\n    --shadow: 0 1px 0 #0f172008, 0 8px 28px -12px #0f172026;\n    --cel-tint:#1D9E7510; --inter-tint:#E8732A10; --infra-tint:#2B5EA710;\n  }\n  [data-theme=\"dark\"] {\n    --ink:#eef2f7; --ink-2:#c9d1dc; --ink-3:#8b95a4; --ink-4:#6a7382;\n    --line:#ffffff1f; --line-2:#ffffff14;\n    --surface:#0f1720b3; --surface-2:#0f17207a;\n    --chip:#ffffff14; --chip-h:#ffffff22;\n    --shadow: 0 1px 0 #00000040, 0 12px 36px -10px #00000080;\n    --cel-tint:#1D9E7522; --inter-tint:#E8732A22; --infra-tint:#2B5EA722;\n  }\n\n  html, body { margin:0; padding:0; background:transparent; }\n  body {\n    font-family: var(--font-sans);\n    color: var(--ink);\n    -webkit-font-smoothing: antialiased;\n    text-rendering: optimizeLegibility;\n  }\n  *, *::before, *::after { box-sizing: border-box; }\n\n  .csri {\n    min-width: 680px;\n    max-width: 1180px;\n    margin: 0 auto;\n    padding: 18px;\n  }\n  .csri__card {\n    background: var(--surface);\n    backdrop-filter: blur(10px);\n    -webkit-backdrop-filter: blur(10px);\n    border: 1px solid var(--line);\n    border-radius: var(--radius);\n    box-shadow: var(--shadow);\n    overflow: hidden;\n  }\n\n  /* ------------ Header ------------ */\n  .csri__head {\n    display: flex;\n    align-items: center;\n    gap: 16px;\n    padding: 14px 18px;\n    border-bottom: 1px solid var(--line-2);\n  }\n  .csri__brand { display:flex; align-items:baseline; gap:10px; margin-right:auto; }\n  .csri__brand-mark { font-weight: 700; letter-spacing:-0.01em; font-size: 14px; color: var(--ink); }\n  .csri__brand-sub  { font-size: 12px; color: var(--ink-3); }\n  .csri__theme {\n    appearance: none;\n    border: 1px solid var(--line);\n    background: transparent;\n    color: var(--ink-3);\n    width: 32px; height: 32px;\n    border-radius: 8px; cursor: pointer;\n    display:inline-flex; align-items:center; justify-content:center;\n    transition: color .2s, border-color .2s;\n  }\n  .csri__theme:hover { color: var(--ink); border-color: var(--ink-4); }\n\n  /* ------------ Hero (top totals) ------------ */\n  .hero {\n    padding: 36px 28px 32px;\n    text-align: center;\n    position: relative;\n    overflow: hidden;\n  }\n  .hero::before {\n    content:\"\";\n    position:absolute; inset:0;\n    background:\n      radial-gradient(ellipse at 18% 0%, var(--cel-tint), transparent 55%),\n      radial-gradient(ellipse at 82% 0%, var(--inter-tint), transparent 55%),\n      radial-gradient(ellipse at 50% 100%, var(--infra-tint), transparent 60%);\n    pointer-events: none;\n  }\n  .hero__eyebrow {\n    position: relative;\n    font: 600 11px/1 var(--font-sans);\n    letter-spacing: 0.18em;\n    text-transform: uppercase;\n    color: var(--ink-3);\n    margin-bottom: 14px;\n  }\n  .hero__title {\n    position: relative;\n    margin: 0 0 6px;\n    font-size: clamp(28px, 3.2vw, 40px);\n    font-weight: 700;\n    letter-spacing: -0.025em;\n    line-height: 1.1;\n    color: var(--ink);\n  }\n  .hero__title .grad {\n    background: linear-gradient(90deg, var(--cel) 0%, var(--inter) 50%, var(--infra) 100%);\n    -webkit-background-clip: text; background-clip: text; color: transparent;\n  }\n  .hero__sub {\n    position: relative;\n    color: var(--ink-3);\n    font-size: 14px;\n    max-width: 56ch;\n    margin: 0 auto 30px;\n    line-height: 1.5;\n  }\n\n  .hero__stats {\n    position: relative;\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 18px;\n    max-width: 880px;\n    margin: 0 auto;\n  }\n  @media (max-width: 760px) { .hero__stats { grid-template-columns: 1fr; } }\n\n  .hstat {\n    background: var(--surface-2);\n    border: 1px solid var(--line);\n    border-radius: var(--radius);\n    padding: 22px 20px 18px;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    gap: 6px;\n    position: relative;\n    overflow: hidden;\n  }\n  .hstat::after {\n    content:\"\";\n    position: absolute; left: 0; top: 0; bottom: 0;\n    width: 4px;\n    background: linear-gradient(180deg, var(--cel), var(--inter), var(--infra));\n  }\n  .hstat__num {\n    font-family: var(--font-num);\n    font-weight: 700;\n    font-size: clamp(44px, 5vw, 64px);\n    line-height: 1;\n    letter-spacing: -0.03em;\n    font-variant-numeric: tabular-nums;\n    color: var(--ink);\n  }\n  .hstat__label {\n    font-weight: 600;\n    color: var(--ink);\n    font-size: 14px;\n  }\n  .hstat__hint {\n    font-size: 12px;\n    color: var(--ink-3);\n    line-height: 1.4;\n  }\n\n  /* ------------ Three columns ------------ */\n  .cols {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 14px;\n    padding: 28px 22px 32px;\n  }\n  @media (max-width: 1000px) { .cols { grid-template-columns: 1fr; } }\n\n  .col {\n    border: 1px solid var(--line);\n    border-radius: var(--radius);\n    padding: 20px 18px 18px;\n    background: var(--surface-2);\n    position: relative;\n    overflow: hidden;\n    color: var(--ink-2);\n    display: flex; flex-direction: column;\n    gap: 16px;\n  }\n  .col::before {\n    content:\"\";\n    position: absolute; left:0; right:0; top:0;\n    height: 4px;\n    background: currentColor;\n  }\n  .col[data-init=\"cel\"]   { color: var(--cel); }\n  .col[data-init=\"inter\"] { color: var(--inter); }\n  .col[data-init=\"infra\"] { color: var(--infra); }\n\n  .col__head { display:flex; flex-direction: column; gap: 4px; }\n  .col__title {\n    font-size: 18px;\n    font-weight: 700;\n    letter-spacing: -0.015em;\n    color: currentColor;\n    margin: 0;\n    display: flex; align-items: center; gap: 10px;\n    white-space: nowrap;\n  }\n  .col__dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; }\n  .col__full { font-size: 12.5px; color: var(--ink-3); font-weight: 500; }\n  .col__sub  { font-size: 12.5px; color: var(--ink-3); line-height: 1.45; }\n\n  /* mini stats grid inside each column */\n  .ministats {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 8px;\n  }\n  .mstat {\n    background: var(--chip);\n    border-radius: var(--radius-sm);\n    padding: 10px 12px;\n    border: 1px solid transparent;\n  }\n  .col[data-init=\"cel\"]   .mstat { background: var(--cel-tint); }\n  .col[data-init=\"inter\"] .mstat { background: var(--inter-tint); }\n  .col[data-init=\"infra\"] .mstat { background: var(--infra-tint); }\n  .mstat__num {\n    font-family: var(--font-num);\n    font-weight: 700;\n    font-size: 26px;\n    line-height: 1;\n    letter-spacing: -0.025em;\n    color: currentColor;\n    font-variant-numeric: tabular-nums;\n  }\n  .mstat__label {\n    margin-top: 5px;\n    font-size: 11.5px;\n    color: var(--ink-2);\n    line-height: 1.3;\n    font-weight: 500;\n  }\n  .mstat__hint {\n    display: block;\n    font-size: 10.5px;\n    color: var(--ink-3);\n    margin-top: 2px;\n    font-weight: 400;\n  }\n\n  /* country list inside column */\n  .clist__head {\n    display: flex; align-items: baseline; justify-content: space-between;\n    gap: 8px;\n    font: 600 11px/1 var(--font-sans);\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    color: var(--ink-3);\n    margin: 0 0 8px;\n  }\n  .clist__count {\n    color: currentColor;\n    font-size: 12px;\n    background: transparent;\n    border: 1px solid currentColor;\n    padding: 2px 8px;\n    border-radius: 999px;\n    font-weight: 700;\n    letter-spacing: 0;\n  }\n  .clist {\n    display: flex; flex-direction: column;\n    gap: 2px;\n  }\n  .crow {\n    display: flex; align-items: center;\n    gap: 8px;\n    padding: 6px 8px;\n    border-radius: 8px;\n    font-size: 13px;\n    color: var(--ink-2);\n    transition: background .15s, color .15s;\n    line-height: 1.2;\n    opacity: 0;\n    transform: translateY(4px);\n  }\n  .crow--in {\n    animation: crowIn .4s ease forwards;\n  }\n  @keyframes crowIn {\n    to { opacity: 1; transform: none; }\n  }\n  .crow:hover { background: var(--chip-h); color: var(--ink); }\n  .crow .flag { font-size: 16px; line-height: 1; width: 20px; flex-shrink: 0; text-align: center; }\n  .crow__name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }\n  .crow__tags { display: inline-flex; gap: 4px; flex-shrink: 0; }\n  .ctag {\n    display: inline-block;\n    width: 7px; height: 7px;\n    border-radius: 50%;\n    background: currentColor;\n    box-shadow: 0 0 0 1.5px var(--surface-2);\n  }\n  .ctag[data-k=\"cel\"]   { color: var(--cel); }\n  .ctag[data-k=\"inter\"] { color: var(--inter); }\n  .ctag[data-k=\"infra\"] { color: var(--infra); }\n\n  /* shared = give the entire row a soft tinted left edge */\n  .crow.is-shared {\n    background:\n      linear-gradient(90deg, var(--row-tint, transparent) 0%, transparent 60%);\n  }\n\n  /* ------------ Legend strip (between hero and cols) ------------ */\n  .keystrip {\n    display: flex; align-items: center; justify-content: center;\n    gap: 22px;\n    padding: 14px 18px;\n    border-top: 1px dashed var(--line);\n    border-bottom: 1px dashed var(--line);\n    font-size: 12.5px;\n    color: var(--ink-3);\n    flex-wrap: wrap;\n  }\n  .keystrip__item { display: inline-flex; align-items: center; gap: 7px; font-weight: 600; }\n  .keystrip__item .sw { width: 10px; height: 10px; border-radius: 3px; background: currentColor; }\n  .keystrip__item[data-k=\"cel\"]   { color: var(--cel); }\n  .keystrip__item[data-k=\"inter\"] { color: var(--inter); }\n  .keystrip__item[data-k=\"infra\"] { color: var(--infra); }\n  .keystrip__item span:last-child { color: var(--ink); }\n  .keystrip__hint {\n    color: var(--ink-3);\n    font-size: 12px;\n    font-weight: 500;\n    padding-left: 14px;\n    border-left: 1px solid var(--line);\n  }\n\n  /* ------------ Reveal animations on scroll ------------ */\n  .reveal {\n    opacity: 0;\n    transform: translateY(14px);\n    transition: opacity .6s ease, transform .6s ease;\n  }\n  .reveal.is-in {\n    opacity: 1;\n    transform: none;\n  }\n\n  /* footer note */\n  .foot {\n    padding: 14px 22px 22px;\n    font-size: 11.5px;\n    color: var(--ink-4);\n    text-align: center;\n    border-top: 1px solid var(--line-2);\n  }\n<\u002Fstyle>\n<\u002Fhead>\n<body>\n<div class=\"csri\" id=\"csri\">\n  <div class=\"csri__card\">\n    <!-- Header -->\n    <div class=\"csri__head\" style=\"justify-content:flex-end\">\n      <button class=\"csri__theme\" id=\"themeBtn\" aria-label=\"Toggle theme\" title=\"Toggle theme\">\n        <svg id=\"themeIcon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"><\u002Fcircle><path d=\"M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41\"><\u002Fpath><\u002Fsvg>\n      <\u002Fbutton>\n    <\u002Fdiv>\n\n    <!-- Hero / top totals -->\n    <div class=\"hero\">\n      <h1 class=\"hero__title reveal\" style=\"margin-top:0\">\n        <span class=\"grad\">Three programmes,<\u002Fspan> one European footprint.\n      <\u002Fh1>\n      <p class=\"hero__sub reveal\">\n        CSRI delivers consumer co-creation, higher-education partnerships, and\n        unlocks the hidden value of European research infrastructures across Central, Eastern, and Southern Europe.\n      <\u002Fp>\n\n      <div class=\"hero__stats\">\n        <div class=\"hstat reveal\">\n          <div class=\"hstat__num\" data-target=\"25\">0<\u002Fdiv>\n          <div class=\"hstat__label\">Unique countries<\u002Fdiv>\n          <div class=\"hstat__hint\">across all three flagship programmes<\u002Fdiv>\n        <\u002Fdiv>\n        <div class=\"hstat reveal\">\n          <div class=\"hstat__num\" data-target=\"183\">0<\u002Fdiv>\n          <div class=\"hstat__label\">Participations<\u002Fdiv>\n          <div class=\"hstat__hint\">total country-programme engagements<\u002Fdiv>\n        <\u002Fdiv>\n        <div class=\"hstat reveal\">\n          <div class=\"hstat__num\" data-target=\"7\">0<\u002Fdiv>\n          <div class=\"hstat__label\">Years of operation<\u002Fdiv>\n          <div class=\"hstat__hint\">2019 – 2025<\u002Fdiv>\n        <\u002Fdiv>\n      <\u002Fdiv>\n    <\u002Fdiv>\n\n    <!-- Legend -->\n    <div class=\"keystrip\">\n      <span class=\"keystrip__item\" data-k=\"cel\"><span class=\"sw\"><\u002Fspan><span>CEL<\u002Fspan><\u002Fspan>\n      <span class=\"keystrip__item\" data-k=\"inter\"><span class=\"sw\"><\u002Fspan><span>InterHEI<\u002Fspan><\u002Fspan>\n      <span class=\"keystrip__item\" data-k=\"infra\"><span class=\"sw\"><\u002Fspan><span>InfraBooster<\u002Fspan><\u002Fspan>\n      <span class=\"keystrip__hint\">Coloured dots next to a country show which other programmes it joined.<\u002Fspan>\n    <\u002Fdiv>\n\n    <!-- Three columns -->\n    <div class=\"cols\" id=\"cols\"><\u002Fdiv>\n\n    <div class=\"foot\">\n      CSRI · University of Warsaw · Centre for Socially Responsible Innovations\n    <\u002Fdiv>\n  <\u002Fdiv>\n<\u002Fdiv>\n\n<script>\n/* ===== DATA ===== */\nconst FLAG = {\n  Albania:\"🇦🇱\",\"Bosnia & Herzegovina\":\"🇧🇦\",Bulgaria:\"🇧🇬\",Croatia:\"🇭🇷\",\n  Czechia:\"🇨🇿\",Estonia:\"🇪🇪\",Finland:\"🇫🇮\",Greece:\"🇬🇷\",Hungary:\"🇭🇺\",\n  Italy:\"🇮🇹\",Latvia:\"🇱🇻\",Lithuania:\"🇱🇹\",Malta:\"🇲🇹\",Moldova:\"🇲🇩\",\n  Montenegro:\"🇲🇪\",\"N. Macedonia\":\"🇲🇰\",Poland:\"🇵🇱\",Portugal:\"🇵🇹\",\n  Romania:\"🇷🇴\",Serbia:\"🇷🇸\",Slovakia:\"🇸🇰\",Slovenia:\"🇸🇮\",Spain:\"🇪🇸\",\n  \"Türkiye\":\"🇹🇷\",Ukraine:\"🇺🇦\"\n};\n\nconst INITIATIVES = {\n  cel: {\n    key:\"cel\", name:\"Consumer Engagement Labs\", full:\"\",\n    sub:\"Where food innovation is co-created with consumers.\",\n    countries: [\"Bulgaria\",\"Croatia\",\"Czechia\",\"Estonia\",\"Finland\",\"Greece\",\"Hungary\",\"Italy\",\"Latvia\",\"Lithuania\",\"Malta\",\"N. Macedonia\",\"Poland\",\"Portugal\",\"Romania\",\"Serbia\",\"Slovakia\",\"Slovenia\",\"Spain\",\"Türkiye\"],\n    stats: [\n      { v:7,   label:\"Years\",                 hint:\"2019 – 2025\" },\n      { v:20,  label:\"Countries\" },\n      { v:103, label:\"Partner organisations\" },\n      { v:43,  label:\"Products launched\",     hint:\"+8 in pipeline\" },\n      { v:166, label:\"Consumer panels\" },\n      { v:8,   label:\"Product categories\" }\n    ]\n  },\n  inter: {\n    key:\"inter\", name:\"InterHEI\", full:\"\",\n    sub:\"Training students and supporting start-ups across HEIs.\",\n    countries: [\"Greece\",\"Italy\",\"Poland\",\"Serbia\",\"Slovakia\",\"Spain\",\"Türkiye\",\"Ukraine\"],\n    stats: [\n      { v:3,   label:\"Years\",                 hint:\"2022 – 2024\" },\n      { v:8,   label:\"Countries\" },\n      { v:14,  label:\"Partner organisations\", hint:\"11 full + 3 associated\" },\n      { v:851, label:\"Students trained\" },\n      { v:16,  label:\"Start-ups supported\" },\n      { v:4,   label:\"Key initiatives\" }\n    ]\n  },\n  infra: {\n    key:\"infra\", name:\"InfraBooster\", full:\"\",\n    sub:\"Unlocking the hidden value of European research infrastructures.\",\n    countries: [\"Albania\",\"Bosnia & Herzegovina\",\"Bulgaria\",\"Croatia\",\"Italy\",\"Latvia\",\"Lithuania\",\"Moldova\",\"Montenegro\",\"N. Macedonia\",\"Poland\",\"Portugal\",\"Romania\",\"Serbia\",\"Spain\",\"Türkiye\",\"Ukraine\"],\n    stats: [\n      { v:3,  label:\"Years\",                     hint:\"2023 – 2025\" },\n      { v:17, label:\"Countries\" },\n      { v:66, label:\"Participating institutions\" },\n      { v:25, label:\"Services developed\",        hint:\"12 + 13 across editions\" }\n    ]\n  }\n};\n\n/* ===== Membership map (used to compute cross-init dots per row) ===== */\nconst MEMBERSHIP = {};\n['cel','inter','infra'].forEach(k => {\n  INITIATIVES[k].countries.forEach(c => {\n    if (!MEMBERSHIP[c]) MEMBERSHIP[c] = new Set();\n    MEMBERSHIP[c].add(k);\n  });\n});\n\n/* ===== Theme ===== */\nconst themeBtn = document.getElementById('themeBtn');\nconst themeIcon = document.getElementById('themeIcon');\nconst SUN  = `<circle cx=\"12\" cy=\"12\" r=\"4\"><\u002Fcircle><path d=\"M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41\"><\u002Fpath>`;\nconst MOON = `<path d=\"M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z\"><\u002Fpath>`;\nfunction getTheme(){ return document.documentElement.getAttribute('data-theme') ||\n  (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }\nfunction setTheme(t){ document.documentElement.setAttribute('data-theme', t);\n  themeIcon.innerHTML = t === 'dark' ? SUN : MOON; }\nthemeBtn.addEventListener('click', () => setTheme(getTheme() === 'dark' ? 'light' : 'dark'));\nsetTheme(getTheme());\n\n/* ===== Render columns ===== */\nconst colsEl = document.getElementById('cols');\n['cel','inter','infra'].forEach(k => {\n  const I = INITIATIVES[k];\n  const col = document.createElement('div');\n  col.className = 'col reveal';\n  col.dataset.init = k;\n  col.innerHTML = `\n    <div class=\"col__head\">\n      <h3 class=\"col__title\"><span class=\"col__dot\"><\u002Fspan>${I.name}<\u002Fh3>\n      <div class=\"col__full\">${I.full}<\u002Fdiv>\n      <div class=\"col__sub\">${I.sub}<\u002Fdiv>\n    <\u002Fdiv>\n\n    <div class=\"ministats\">\n      ${I.stats.map(s => `\n        <div class=\"mstat\">\n          <div class=\"mstat__num\" data-target=\"${s.v}\">0<\u002Fdiv>\n          <div class=\"mstat__label\">${s.label}${s.hint ? `<span class=\"mstat__hint\">${s.hint}<\u002Fspan>` : ''}<\u002Fdiv>\n        <\u002Fdiv>\n      `).join('')}\n    <\u002Fdiv>\n\n    <div class=\"clist-wrap\">\n      <div class=\"clist__head\">\n        <span>Countries<\u002Fspan>\n        <span class=\"clist__count\">${I.countries.length}<\u002Fspan>\n      <\u002Fdiv>\n      <div class=\"clist\">\n        ${[...I.countries].sort((a,b)=>a.localeCompare(b)).map(c => {\n          const others = [...MEMBERSHIP[c]].filter(x => x !== k);\n          const isShared = others.length > 0;\n          // tint background using the FIRST other initiative's tint\n          const tintColor = others[0] === 'cel' ? 'var(--cel-tint)'\n                          : others[0] === 'inter' ? 'var(--inter-tint)'\n                          : others[0] === 'infra' ? 'var(--infra-tint)'\n                          : 'transparent';\n          return `\n            <div class=\"crow${isShared?' is-shared':''}\" style=\"--row-tint:${tintColor}\">\n              <span class=\"flag\">${FLAG[c]||\"\"}<\u002Fspan>\n              <span class=\"crow__name\">${c}<\u002Fspan>\n              <span class=\"crow__tags\">\n                ${others.map(o => `<span class=\"ctag\" data-k=\"${o}\" title=\"Also in ${INITIATIVES[o].name}\"><\u002Fspan>`).join('')}\n              <\u002Fspan>\n            <\u002Fdiv>\n          `;\n        }).join('')}\n      <\u002Fdiv>\n    <\u002Fdiv>\n  `;\n  colsEl.appendChild(col);\n});\n\n/* ===== Counter animation ===== */\nfunction easeOutCubic(t){ return 1 - Math.pow(1 - t, 3); }\nfunction animateNumber(el, target, dur=4200){\n  const start = performance.now();\n  function frame(now){\n    const t = Math.min(1, (now - start) / dur);\n    const v = Math.round(easeOutCubic(t) * target);\n    el.textContent = v.toLocaleString('en-US');\n    if (t < 1) requestAnimationFrame(frame);\n    else el.textContent = target.toLocaleString('en-US');\n  }\n  el.textContent = \"0\";\n  requestAnimationFrame(frame);\n}\n\n/* ===== IntersectionObserver — reveal + counters on scroll ===== */\nconst seen = new WeakSet();\nconst io = new IntersectionObserver((entries) => {\n  entries.forEach(e => {\n    if (!e.isIntersecting) return;\n    const el = e.target;\n    if (seen.has(el)) return;\n    seen.add(el);\n    el.classList.add('is-in');\n    // animate any counters inside\n    el.querySelectorAll('[data-target]').forEach(n => {\n      animateNumber(n, parseInt(n.dataset.target,10),\n        n.classList.contains('hstat__num') ? 4800 : 3800);\n    });\n    // staggered country reveal inside columns\n    el.querySelectorAll('.crow').forEach((row, i) => {\n      row.style.animationDelay = (i * 140) + 'ms';\n      row.classList.add('crow--in');\n    });\n    io.unobserve(el);\n  });\n}, { threshold: 0.18, rootMargin: '0px 0px -40px 0px' });\n\ndocument.querySelectorAll('.reveal').forEach(el => io.observe(el));\n\n/* If page is already short enough that everything is in view, kick once */\nrequestAnimationFrame(() => {\n  document.querySelectorAll('.reveal').forEach(el => {\n    const r = el.getBoundingClientRect();\n    if (r.top < window.innerHeight && r.bottom > 0) {\n      el.classList.add('is-in');\n      if (!seen.has(el)) {\n        seen.add(el);\n        el.querySelectorAll('[data-target]').forEach(n => {\n          animateNumber(n, parseInt(n.dataset.target,10),\n            n.classList.contains('hstat__num') ? 4800 : 3800);\n        });\n        el.querySelectorAll('.crow').forEach((row, i) => {\n          row.style.animationDelay = (i * 140) + 'ms';\n          row.classList.add('crow--in');\n        });\n      }\n    }\n  });\n});\n\n/* stagger the reveal slightly so it feels orchestrated */\ndocument.querySelectorAll('.hero .reveal').forEach((el,i) => {\n  el.style.transitionDelay = (i * 70) + 'ms';\n});\ndocument.querySelectorAll('.cols .col.reveal').forEach((el,i) => {\n  el.style.transitionDelay = (i * 110) + 'ms';\n});\n<\u002Fscript>\n\n\n<\u002Fbody><\u002Fhtml>"
+    </script>
 </body>
 </html>
